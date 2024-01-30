@@ -1,0 +1,62 @@
+:root {
+    --border-radius: 5px;
+    --border-color: #ff6600;
+    --bg-color-orange: #ffa600;
+}
+
+
+html {
+    background-image: url(images/linh-pham-yUOLdcAdVpg-unsplash.jpg);
+    background-size: cover;
+}
+
+body {
+    padding: 5px;
+    margin: 1px;
+    border-radius: var(--border-radius);
+}
+
+h1 {
+    background-color: var(--bg-color-orange);
+    color: white;
+    border-radius: var(--border-radius);
+
+}
+
+button {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+}
+
+.btn-primary {
+    background-color: var(--bg-color-orange); 
+    border-color: var(--border-color); 
+}
+
+.btn:hover {
+    background-color: #c78e14ef; 
+    border-color: var(--border-color);
+}
+
+/* Deaktivierter Button */
+.btn:disabled {
+    
+    opacity: 0.6; /* verringerte Deckkraft */
+    background-color: #b3612a;
+    border-color: var(--border-color);
+    cursor: not-allowed; /* ändert den Mauszeiger */
+}
+
+#display > p {
+    font-size: 24px;
+}
+
+#displayedWord {
+    font-weight: 700;
+}
+
+
+.font-italic {
+    font-style: italic;
+}
